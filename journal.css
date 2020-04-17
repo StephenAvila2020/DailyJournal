@@ -4,3 +4,28 @@
     border: none;
     justify-content: center;
   }
+
+  .date{
+    display: inline-flex;
+    flex-direction: column;
+    flex: 1;
+
+  }
+  .concept{
+    display: inline-flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  .entry{
+    display: inline-flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  .mood{
+    display: inline-flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  .single-entry {
+    margin: auto;
+  }

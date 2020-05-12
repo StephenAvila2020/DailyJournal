@@ -29,3 +29,9 @@
   .single-entry {
     margin: auto;
   }
+
+  body {
+    background-image: url(https://cdn.drawception.com/images/panels/2016/8-12/Z8LNAZM7xq-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

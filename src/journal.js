@@ -20,13 +20,22 @@ document.querySelector("#journalBtn").addEventListener("click", function () {
         Mood: entryMood,
     };
 
-    
+    fetch("http://localhost:3000/entries", { // Replace "url" with your API's URL
+    method: "POST",
+    headers: {
+        "Content-Type": "application/json"
+    },
+    body: JSON.stringify(journalEntryObject)
+}).then(() => {
 
     document.querySelector("#journalContainer").innerHTML = "";
 
     apiManager.getAllJournalsFromAPI().then((entries) => {
         renderJournalEntries(entries)
     })
+})
+
+    
 })
 
 

@@ -1,31 +1,53 @@
 {
-    "entries": [{
-        "entry":{
-        "id": 1,
-        "Date": "4/17/2020",
-        "Concept": "Working with DOMs",
-        "Entry": "Finishing up practice DOMs",
-        "Mood":"Happy"
-    }
-    },
-    {   
-        "entry": {
-        "id": 2,
-        "Date": "4/16/2020",
-        "Concept": "Working with functions",
-        "Entry": "Finishing up practice functions",
-        "Mood":"Happy"
-    }
+  "entries": [
+    {
+      "id": 1,
+      "Date": "4/17/2020",
+      "Concept": "Working with DOMs",
+      "Entry": "Finishing up practice DOMs",
+      "Mood": "Happy"
     },
     {
-        "entry":{
-        "id": 3,
-        "Date": "4/15/2020",
-        "Concept": "Working with Java/Journal",
-        "Entry": "Finishing up practice Java/Journal",
-        "Mood":"Happy"
-    
+      "id": 2,
+      "Date": "4/16/2020",
+      "Concept": "Working with functions",
+      "Entry": "Finishing up practice functions",
+      "Mood": "Happy"
+    },
+    {
+      "id": 3,
+      "Date": "4/15/2020",
+      "Concept": "Working with Java/Journal",
+      "Entry": "Finishing up practice Java/Journal",
+      "Mood": "Happy"
+    },
+    {
+      "Date": "2020-05-13",
+      "Concept": "stuff",
+      "Entry": "stuff",
+      "Mood": "Happy",
+      "id": 4
+    },
+    {
+      "Date": "77070-07-07",
+      "Concept": "stuff",
+      "Entry": "stuff",
+      "Mood": "Happy",
+      "id": 5
+    },
+    {
+      "Date": "2002-08-08",
+      "Concept": "not stuff",
+      "Entry": "not stuff",
+      "Mood": "Happy",
+      "id": 6
+    },
+    {
+      "Date": "5050-05-05",
+      "Concept": "ss",
+      "Entry": "ss",
+      "Mood": "Happy",
+      "id": 7
     }
-   }
-]
+  ]
 }

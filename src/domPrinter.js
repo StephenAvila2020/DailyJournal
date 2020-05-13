@@ -16,7 +16,7 @@ const makeJournalEntryComponent = (journalEntry)=>{
 const renderJournalEntries = (entries) => {
     document.querySelector(".entryLog").innerHTML = ""
     entries.forEach(journalObjectInLoop => {
-       const   htmlString = makeJournalEntryComponent(journalObjectInLoop.entry);
+       const   htmlString = makeJournalEntryComponent(journalObjectInLoop);
        console.log(journalObjectInLoop)
     document.querySelector(".entryLog").innerHTML += htmlString
     })
